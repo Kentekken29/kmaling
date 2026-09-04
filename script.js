@@ -21,5 +21,18 @@ function greet(name) {
 }
 console.log(greet("Mayung aga", ["Mark", "Bai", "Soy", "Tol", "Erp"]));
 
+const heading = document.querySelector('h1');
+console.log(heading);
+
+const connectheading = document.querySelector('#connect h2');
+console.log(connectheading);
+
+const serviceheading = document.querySelector('#services h2');
+console.log(serviceheading);
+
+
+
+
+
 
 
