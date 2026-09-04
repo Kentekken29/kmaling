@@ -21,11 +21,12 @@ function greet(name) {
 }
 console.log(greet("Mayung aga", ["Mark", "Bai", "Soy", "Tol", "Erp"]));
 
-const heading = document.querySelector('h1');
-console.log(heading);
+const heading = document.querySelector("h1");
+heading.textContent = "Your father's Name";
+console.log(heading.textContent);
 
-const connectheading = document.querySelector('#connect h2');
-console.log(connectheading);
+const contactheading = document.querySelector('#contact h2');
+console.log(contactheading);
 
 const serviceheading = document.querySelector('#services h2');
 console.log(serviceheading);
