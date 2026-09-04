@@ -13,9 +13,9 @@ console.log('Number: ${number}');
 console.log('Address: ${address}');
 console.log(67);
 
-function greet(name) {
+function greet(greetings, names) {
     if (Array.isArray(names)) {
-        name = name.joins(', ');
+        names = names.join(', ');
     }
     return '${greetings} sa enyu ${names}';
 }
@@ -23,7 +23,10 @@ console.log(greet("Mayung aga", ["Mark", "Bai", "Soy", "Tol", "Erp"]));
 
 const heading = document.querySelector("h1");
 heading.textContent = "Your father's Name";
-console.log(heading.textContent);
+heading.style.color = "purple";
+heading.style.backgroundColor = "yellow";
+heading.style.fontSize = "100px";
+console.log(heading);
 
 const contactheading = document.querySelector('#contact h2');
 console.log(contactheading);
